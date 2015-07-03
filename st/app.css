@@ -232,8 +232,18 @@ img {
 	font-weight: 300;
 }
 
+#foo {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 306px; /* account for borders */
+  width: 200px;
+}
 
 
+#foo li {
+	width: 50px;
+}
 #nested ul li {
 	background-color: rgba(0,0,0,.05);
 }
