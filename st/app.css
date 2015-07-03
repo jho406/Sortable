@@ -232,8 +232,36 @@ img {
 	font-weight: 300;
 }
 
+#foo li {
+	position: absolute;
+	width: 50px;
+	height: 100px;
+}
 
-
+#foo li:nth-child(1) {
+  top: 0;
+  left: 0;
+}
+#foo li:nth-child(2) {
+  top: 100px;
+  left: 0;
+}
+#foo li:nth-child(3) {
+  top: 200px;
+  left: 0;
+}
+#foo li:nth-child(4) {
+  top: 0;
+  left: 100px;
+}
+#foo li:nth-child(5) {
+  top: 100px;
+  left: 100px;
+}
+#foo li:nth-child(6) {
+  top: 200px;
+  left: 100px;
+}
 #nested ul li {
 	background-color: rgba(0,0,0,.05);
 }
